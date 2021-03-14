@@ -18,11 +18,9 @@ Features of Number/Numeral System Converter
 If you like it, give 5 stars on google play and leave comments and also Contribute our app source code  or suggest us any features.
 
 ![test](https://user-images.githubusercontent.com/61195602/111064379-a9531300-84ab-11eb-9147-a1a9c5668757.jpg)
-![icon](https://user-images.githubusercontent.com/61195602/111064385-b112b780-84ab-11eb-92a1-200ca3ee4973.png)
 ![Screenshot_20210313-151839_ Converter](https://user-images.githubusercontent.com/61195602/111064403-c7b90e80-84ab-11eb-875e-55338c7cb831.jpg)
 ![Screenshot_20210313-152001_ Converter](https://user-images.githubusercontent.com/61195602/111064404-c982d200-84ab-11eb-88b9-e70f05c9337a.jpg)
 ![Screenshot_20210313-152008_ Converter](https://user-images.githubusercontent.com/61195602/111064405-cab3ff00-84ab-11eb-8489-7f3c915489eb.jpg)
 ![Screenshot_20210313-152036_ Converter](https://user-images.githubusercontent.com/61195602/111064406-cc7dc280-84ab-11eb-990e-7aa0de35eb97.jpg)
 ![Uploading Screensh
 ![Screenshot_20210313-152001_ Converter](https://user-images.githubusercontent.com/61195602/111064408-cee01c80-84ab-11eb-8737-35e59147d6b5.jpg)
-![Screenshot_20210313-152036_ Converter](https://user-images.githubusercontent.com/61195602/111064412-d6072a80-84ab-11eb-85ed-4df207d35b04.jpg)
