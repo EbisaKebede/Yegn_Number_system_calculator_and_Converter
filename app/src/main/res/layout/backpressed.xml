@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/backContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_dialog">
+
+    <ImageView
+        android:id="@+id/warning"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:src="@drawable/ic_warning_24"
+        app:tint="@color/red" />
+
+
+
+
+    <TextView
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/warning"
+        android:fontFamily="@font/yatra_one"
+        android:includeFontPadding="false"
+        android:text="@string/exit_des"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/yatra_one"
+        android:includeFontPadding="false"
+        android:padding="8dp"
+        android:text="@string/no"
+        android:textAllCaps="true"
+
+        android:textColor="#11F47F"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@+id/ok2"
+        android:layout_below="@+id/v"
+        />
+
+    <TextView
+        android:id="@+id/ok2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/yatra_one"
+        android:includeFontPadding="false"
+        android:padding="8dp"
+        android:text="@string/yes"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/v"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+</RelativeLayout>

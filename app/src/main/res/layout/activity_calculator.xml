@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Calculator">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:title="@string/calculator"
+        android:elevation="4dp"
+        android:foregroundTint="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_resul">
+
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:backgroundTintMode="screen"
+                    android:hint="@string/result"
+                    android:layout_alignParentBottom="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/buttonColor"
+                    android:textSize="22sp"
+                    android:visibility="visible"
+                    tools:ignore="RtlSymmetry" />
+
+                <ImageView
+                    android:layout_width="35sp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:onClick="copyToClipboard"
+                    android:layout_above="@+id/result"
+                    app:srcCompat="@drawable/copy_to_clipboard"
+                    android:contentDescription="@string/copy_to_cliboard"
+                    tools:ignore="RtlSymmetry"
+                    app:tint="@color/white" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/bin"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_white"
+                    android:gravity="center"
+                    android:onClick="bin"
+                    android:text="@string/bin"
+                    android:textColor="@color/buttonColor"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/dec"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_white"
+                    android:gravity="center"
+                    android:onClick="dec"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/dec"
+                    android:textColor="@color/buttonColor"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/oct"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_white"
+                    android:gravity="center"
+                    android:onClick="oct"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/oct"
+                    android:textColor="@color/buttonColor"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/hex"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_white"
+                    android:gravity="center"
+                    android:onClick="hex"
+                    android:paddingHorizontal="20dp"
+                    android:text="@string/hex"
+                    android:textColor="@color/buttonColor"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/firstnum"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_resul"
+
+                android:hint="@string/enter_the_first_number"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/buttonColor"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/secondnum"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_resul"
+                android:hint="@string/enter_the_second_number"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/buttonColor"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginBottom="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:contentDescription="@string/add_numbers"
+                    android:onClick="add"
+                    android:tag="5"
+                    app:srcCompat="@drawable/plus" />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:contentDescription="@string/subtract_numbers"
+                    android:onClick="subtract"
+                    android:tag="6"
+                    app:srcCompat="@drawable/minus" />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:contentDescription="@string/multiply_the_numbers"
+                    android:onClick="multiply"
+                    android:tag="7"
+                    app:srcCompat="@drawable/multiply" />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:contentDescription="@string/divide_the_numbers"
+                    android:onClick="Divide"
+                    android:tag="8"
+                    app:srcCompat="@drawable/divide" />
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:contentDescription="@string/divide_the_numbers"
+                    android:onClick="Mod"
+                    android:tag="8"
+                    app:srcCompat="@drawable/mod" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fractional_no"
+                android:textColor="@color/pink" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9464104790853930/5392537067">
+
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

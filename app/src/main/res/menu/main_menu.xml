@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/share_this_app"
+        android:icon="@drawable/ic_share_24"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+    android:id="@+id/share" />
+    <item android:title="@string/rate_app"
+        android:id="@+id/rate"/>
+    <item android:title="@string/about"
+        android:id="@+id/about" />
+
+
+</menu>
