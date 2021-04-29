@@ -11,14 +11,11 @@ It's not only an educative tool, it's also a calculator and conversion tool.
 
 ## Screenshots
 
-| Main Page | Main Page | Cyanea |
+| Main Page | Converter | Calculator |
 |:-:|:-:|:-:|
 | <img src ="https://user-images.githubusercontent.com/61195602/111064403-c7b90e80-84ab-11eb-875e-55338c7cb831.jpg" width="190" height="340"/> | <img src ="https://user-images.githubusercontent.com/61195602/111064405-cab3ff00-84ab-11eb-8489-7f3c915489eb.jpg" width="190" height="340"/> | <img src ="https://user-images.githubusercontent.com/61195602/111064406-cc7dc280-84ab-11eb-990e-7aa0de35eb97.jpg" width="190" height="340"/> |
 
-
-
-
-Features of Number/Numeral System Converter
+## Features of Number/Numeral System Converter
 ★ Convert binary (Integer or fractional) number into the decimal, octal or hexadecimal system.
 ★ Convert decimal (Integer or fractional) number into the binary, octal or hexadecimal system.
 ★ Convert octal (Integer or fractional) number into the binary, decimal or hexadecimal system.
@@ -31,10 +28,3 @@ Features of Number/Numeral System Converter
 
 If you like it, give 5 stars on google play and leave comments and also Contribute our app source code  or suggest us any features.
 
-
-![Screenshot_20210313-151839_ Converter](https://user-images.githubusercontent.com/61195602/111064403-c7b90e80-84ab-11eb-875e-55338c7cb831.jpg)
-![Screenshot_20210313-152001_ Converter](https://user-images.githubusercontent.com/61195602/111064404-c982d200-84ab-11eb-88b9-e70f05c9337a.jpg)
-![Screenshot_20210313-152008_ Converter](https://user-images.githubusercontent.com/61195602/111064405-cab3ff00-84ab-11eb-8489-7f3c915489eb.jpg)
-![Screenshot_20210313-152036_ Converter](https://user-images.githubusercontent.com/61195602/111064406-cc7dc280-84ab-11eb-990e-7aa0de35eb97.jpg)
-![Uploading Screensh
-![Screenshot_20210313-152001_ Converter](https://user-images.githubusercontent.com/61195602/111064408-cee01c80-84ab-11eb-8737-35e59147d6b5.jpg)
